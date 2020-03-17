@@ -1,0 +1,122 @@
+#Author: Quentin Douasbin, CTR, Stanford University, California, USA
+
+
+mathtext.fontset : stix
+font.family : STIXGeneral
+font.weight : 100
+font.size: 7
+
+#text.usetex : True
+#text.latex.preamble : r"\usepackage{amsmath}"
+
+lines.linewidth: 0.4
+lines.markersize: 3
+lines.markeredgewidth: 0.25
+lines.solid_capstyle: round
+
+#patch.linewidth: 0.5
+patch.facecolor: blue
+patch.edgecolor: eeeeee
+patch.antialiased: True
+
+#text.hinting_factor: 8
+
+axes.edgecolor: 0
+#axes.linewidth: 0.75
+#axes.linewidth: 1.5
+#axes.facecolor: 0.985
+#axes.facecolor: 0.99
+#axes.grid: True
+#axes.prop_cycle: cycler('color', [ '0.00', '348ABD', 'A60628', '0.50', '467821', 'D55E00', 'CC79A7', '56B4E9', '009E73', 'F0E442'])
+#axes.prop_cycle: cycler('color', ['0.0', '8b8b8b', '008fd5', 'fc4f30', 'e5ae38', '810f7c', '6d904f'])
+#axes.prop_cycle: cycler('color', ['0.0', '8b8b8b', '0072BD', 'fc4f30', 'e5ae38', '810f7c', '6d904f'])
+axes.prop_cycle: cycler('color', ['0.0',  '0072BD',  'D95319', '8b8b8b', 'EDB120', '7E2F8E', '77AC30', '4DBEEE', 'A2142F'])
+
+
+#axes.spines.right : False
+# axes.spines.left : True
+# axes.spines.right : True
+# axes.spines.top : True
+# axes.spines.bottom : True
+#axes.autolimit_mode : data
+axes.linewidth : 0.3
+#axes.labelpad: 0.002
+axes.axisbelow : True # Draw axes and grid below the graphs elements
+
+grid.color: 0.9 # grayscale form 0 to 1 (0 == black, 1 == white)
+grid.linestyle: -
+grid.linewidth: 0.15
+
+legend.fancybox: False
+legend.shadow: False
+legend.edgecolor: black
+legend.fontsize: 5
+legend.frameon : False
+legend.framealpha    : 0.8
+legend.labelspacing  : 0.1
+legend.handletextpad : 0.25
+legend.columnspacing : 0.05
+
+#figure.figsize: 8, 3.5
+#figure.figsize: 4.0, 3.5
+#figure.figsize: 4., 4.0
+#figure.figsize: 3.5, 2.5
+figure.figsize: 2.7, 1.96
+#figure.autolayout : True
+figure.dpi : 300
+
+image.cmap: viridis
+#image.cmap: jet
+#image.cmap: inferno
+
+savefig.dpi: 600
+savefig.format: pdf
+#savefig.format: png
+#savefig.pad_inches: 0.01
+
+markers.fillstyle: none
+
+xtick.direction: in
+ytick.direction: in
+
+xtick.top : True
+ytick.right : True
+
+xtick.major.size: 2
+xtick.minor.size: 1.
+xtick.major.width:  0.2
+xtick.minor.width:  0.15
+xtick.major.pad : 1.
+
+ytick.major.size: 2
+ytick.minor.size: 1.
+ytick.major.width:  0.3
+ytick.minor.width:  0.15
+ytick.major.pad : 1.
+
+xtick.minor.visible: True
+ytick.minor.visible: True
+
+axes.labelpad : 1.
+# Use scientific notation
+axes.formatter.limits: -4, 4        ## use scientific notation if log10
+                                      ## of the axis range is smaller than the
+                                      ## first or larger than the second
+# axes.formatter.use_locale: False    ## When True, format tick labels
+                                      ## according to the user's locale.
+                                      ## For example, use ',' as a decimal
+                                      ## separator in the fr_FR locale.
+axes.formatter.use_mathtext: True   ## When True, use mathtext for scientific
+                                      ## notation.
+#axes.formatter.min_exponent: 0      ## minimum exponent to format in scientific notation
+# axes.formatter.useoffset: True      ## If True, the tick label formatter
+  axes.formatter.useoffset: False      ## If True, the tick label formatter
+                                      ## will default to labeling ticks relative
+                                      ## to an offset when the data range is
+                                      ## small compared to the minimum absolute
+                                      ## value of the data.
+# axes.formatter.offset_threshold: 6  ## When useoffset is True, the offset
+                                      ## will be used when it can remove
+                                      ## at least this number of significant
+                                      ## digits from tick labels.
+                                      #
